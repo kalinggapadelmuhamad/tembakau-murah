@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar ul li {
+    padding: 10px;
+}
+
+.home {
+    padding: 0px 5px;
+}
+
+.home .container-fluid {
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)), url("../img/home.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.home .text-slogan {
+    margin-bottom: 8em;
+    margin-left: 10em;
+}
+
+.home .text-slogan h3 {
+    font-size: 27pt;
+    margin: 0;
+    color: #fff;
+}
+
+.home .text-slogan h1 {
+    font-size: 45pt;
+    font-weight: bold;
+    color: #fff;
+}
+
+.informasi {
+    /* background: orange; */
+}
+
+.informasi .container {
+    /* padding: 5em; */
+    padding: 5em;
+    /* background: blue; */
+}
+
+.informasi .text-title {
+    /* margin: 4em; */
+}
+
+.produk .container {
+    /* height: 100vh; */
+    /* background-color: red; */
+    /* padding: 5em; */
+}
+
+.con {
+    position: relative;
+    /* width: 50%; */
+    padding: 0px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    /* height: auto; */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* height: 100%; */
+    /* width: 100%; */
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.con:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.produk .container .row {
+    padding: 0 0 !important;
+    margin: 0 0 !important;
+}
+
+.produk .container .row .col-md-4 {
+    padding: 0 0 !important;
+    margin: 0 0 !important;
+}
+
+.produk .container .row .col-md-4 .row img {
+    padding: 1px 1px !important;
+    margin: 0 0 !important;
+}
+
+.kontak {
+    padding: 10em;
+    /* background-color: red; */
+    background: ;
+}
+
+.footer {
+    background-color: #fafafa;
+    color: #293b5f;
+    padding-top: 20px;
+}
